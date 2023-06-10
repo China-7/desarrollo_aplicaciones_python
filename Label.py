@@ -1,0 +1,10 @@
+from tkinter import*
+V=Tk()
+V.geometry("1000x500")
+miFrame=Frame(V, width="1500",height="100" , bg="darkgreen")
+miFrame.place(x=1, y=1)
+label01=Label(miFrame, text="Tengo sueño")
+label01.place(x=4, y=10 , width="1000")
+label01.config(bg="#000000",fg="dark green")
+label01.config(font=("Agency fb",25))
+V.mainloop()
